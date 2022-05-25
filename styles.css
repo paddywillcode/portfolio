@@ -1,0 +1,259 @@
+html {
+    font-size: 16px;
+    background-color: beige;
+    padding: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /*border: solid black 1px;*/
+}
+
+.my-logo img {
+    height: auto;
+    width: 32vw;
+    display: inline-flex
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+ul:first-child {
+    padding-left: 45px;
+}
+
+ul:last-child {
+    padding-right: 45px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    background-color: transparent;
+    margin-bottom: 50px;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(255, 255, 239);
+}
+
+.nav-bar ul {
+    width: 100vw;
+}
+
+.nav-bar li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 0px;
+    padding: 25px 0;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: rgb(84, 84, 76);
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+
+section {
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+.first-section-flex-container {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.first-section-flex-container img {
+    height: 60vh;
+    min-height: 30%;
+    min-width: 30%;
+    margin-top: 30px;
+    border: solid 1px grey;
+    width: auto;
+    --b: 10px; /* control the size */
+  padding: var(--b);
+  border: calc(2*var(--b)) solid #0000;
+  outline: 1px solid #000;
+  outline-offset: calc(-1*var(--b));
+  background: conic-gradient(from 90deg at 1px 1px,#0000 90deg,#000 0);
+}
+
+.first-section-flex-container h1 {
+    font-size: 3rem;
+    line-height: 55px;
+    width: 35vw;
+}
+
+.highlight {
+    background-color: #ffd100;
+    z-index: -1;
+}
+
+.second-section-flex-container {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.second-section-flex-container p {
+    width: 35vw;
+}
+
+.second-section-flex-container img {
+    height: 60vh;
+    min-height: 30%;
+    min-width: 30%;
+    margin-top: 30px;
+    border: solid 1px grey;
+    width: auto;
+    --b: 10px; /* control the size */
+  padding: var(--b);
+  border: calc(2*var(--b)) solid #0000;
+  outline: 1px solid grey;
+  outline-offset: calc(-1*var(--b));
+  background: conic-gradient(from 90deg at 1px 1px,#0000 90deg,grey 0);
+}
+
+#second-section {
+    background-color: #7c66031d;
+    width: 100%;
+}
+
+#second-section p {
+    font-size: 1.5rem;
+    width: 45vw;
+    color: black;
+}
+
+.third-section-flex-container {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.third-section-flex-container img {
+    height: 60vh;
+    width: auto;
+    margin-top: 30px;
+}
+
+
+
+#fourth-section {
+    padding-top: 100px;
+    background-color: rgb(41, 43, 15);
+}
+
+#sixth-section {
+    padding-top: 100px;
+    background-color: rgb(41, 43, 15);
+}
+
+.social-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #5f2443;
+    letter-spacing: 0.2px;
+}
+
+.social-link:hover {
+    transition: 0.3s;
+    color: #1DA1F2;
+
+}
+
+.desk-image {
+    width: 30vw;
+    max-height: 50vh;
+    height: auto;
+}
+
+.content .section:nth-child(1) {
+    background-color: beige;
+}
+
+.content .section:nth-child(2) {
+    background-color: beige;
+}
+
+.content .section:nth-child(3) {
+    background-color: beige;
+}
+
+.content .section:nth-child(4) {
+    background-color: beige;
+}
+
+.content .section:nth-child(5) {
+    background-color: beige;
+}
+
+.content .section:nth-child(6) {
+    background-color: beige;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 55px;
+    width: 35vw;
+}
+
+
+
+
+
+main {
+    margin: 20px;
+    /*border: solid black 1px;*/
+}
+
+.desk {
+    height: 250px;
+}
+
+.computer-code {
+    height: 250px;
+}
+
+span.square {
+    border: solid 1px grey;
+    padding: 15px 30px 15px 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+span.square:first-child {
+    margin-left: 0px;
+}
+
+span.square:hover {
+    background-color: rgb(27, 28, 5);
+    color: yellow;
+    transition: 0.3s;
+    border-radius: 50px;
+}
